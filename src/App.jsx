@@ -1,6 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 
+import bearKissingGif from "./assets/bear-kissing-gif.gif";
+import bearRosesGif from "./assets/cute-love-bear-roses-gif.gif";
+
+
 const phrases = [
   "No",
   "Are you sure?",
@@ -34,7 +38,7 @@ function App() {
           <>
             <img
               className="img-2"
-              src="src\assets\bear-kissing-gif.gif"
+              src={bearKissingGif}
               alt="bears kissing"
             />
             <h2>OK Yay!!!!</h2>
@@ -43,7 +47,7 @@ function App() {
           <>
             <img
               className="img-1"
-              src="src\assets\cute-love-bear-roses-gif.gif"
+              src={bearRosesGif}
               alt="bear-roses"
             />
             <h2>Will you be my valentine?</h2>
