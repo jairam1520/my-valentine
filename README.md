@@ -1,8 +1,12 @@
-# React + Vite
+# Title: Valentine's Day Proposal React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Description:
+This React app is a playful Valentine's Day proposal generator. It presents users with a cute bear-themed interface, asking them the quintessential question, "Will you be my valentine?" Users can respond with "Yes" or "No," with each "No" incrementally increasing in emotional intensity. If the user selects "Yes," they are greeted with a heartwarming image and message. The project is infused with humor and charm, making it a delightful way to spread love and laughter on Valentine's Day.
 
-Currently, two official plugins are available:
+# Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Engaging UI with bear-themed graphics and animations.
+Dynamic text responses for the "No" button, adding a humorous touch.
+Interactive "Yes" and "No" buttons triggering corresponding actions.
+Personalized footer indicating the creator of the app, adding a warm touch to the experience.
+Technologies: React, useState Hook, CSS for styling.
